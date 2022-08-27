@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/for-my-love/static/css/main.7f6dfc00.css",
-    "main.js": "/for-my-love/static/js/main.1fac7a99.js",
+    "main.js": "/for-my-love/static/js/main.1a793c3e.js",
     "index.html": "/for-my-love/index.html",
     "main.7f6dfc00.css.map": "/for-my-love/static/css/main.7f6dfc00.css.map",
-    "main.1fac7a99.js.map": "/for-my-love/static/js/main.1fac7a99.js.map"
+    "main.1a793c3e.js.map": "/for-my-love/static/js/main.1a793c3e.js.map"
   },
   "entrypoints": [
     "static/css/main.7f6dfc00.css",
-    "static/js/main.1fac7a99.js"
+    "static/js/main.1a793c3e.js"
   ]
 }
