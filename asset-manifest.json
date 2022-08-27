@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/for-my-love/static/css/main.088a0dc3.css",
+    "main.js": "/for-my-love/static/js/main.439ba83b.js",
+    "index.html": "/for-my-love/index.html",
+    "main.088a0dc3.css.map": "/for-my-love/static/css/main.088a0dc3.css.map",
+    "main.439ba83b.js.map": "/for-my-love/static/js/main.439ba83b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088a0dc3.css",
+    "static/js/main.439ba83b.js"
+  ]
+}
