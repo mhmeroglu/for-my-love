@@ -1,38 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Quicksand";
+}
+
 .App {
-  text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#light {
+    background-color: rgb(34, 39, 46)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#love {
+    background-color: #e180b7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App h1 {
+    max-width: 400px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(173, 186, 189);
 }
 
-.App-link {
-  color: #61dafb;
+.App button {
+    border: none;
+    color: rgb(248, 30, 150);
+    font-size: 150px;
+    background-color: rgb(34, 39, 46)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#love h1 {
+    color: rgb(136, 68, 224);
+}
+
+#love button {
+    background-color: #e180b7;
+    color: rgb(117, 214, 236);
 }
