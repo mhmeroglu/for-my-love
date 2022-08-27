@@ -12,11 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
+    transition: background-color 1s;
 }
 
 #light {
-    background-color: rgb(34, 39, 46)
+    background-color: rgb(34, 39, 46);
 }
 
 #love {
@@ -31,7 +32,7 @@
     color: rgb(173, 186, 189);
 }
 
-.App button {
+.App #heart {
     border: none;
     color: rgb(248, 30, 150);
     font-size: 150px;
@@ -42,7 +43,7 @@
     color: rgb(136, 68, 224);
 }
 
-#love button {
+#love #heart {
     background-color: #e180b7;
     color: rgb(117, 214, 236);
 }

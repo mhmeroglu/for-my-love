@@ -17,9 +17,12 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <h1> {theme === "light" ? "Aşkımmmm Kalbime Tıklar Mısın ?" : "Sekizinci Ayımız Kutlu Olsun Bebeğimmm. Seninle Geçirdiğim Her Vakit Sana Olan Sevgim Katlanarak Arttı ve Artmaya Devam Ediyor. Seninle Olduğum İçin Kendimi Çok Mutlu ve Şanslı Hissediyorum. Nice Birlikte Yıllara. İyi ki Varsın Hayatımın Anlamı. Seni Çoooooook Seviyorummmmm <333"}</h1>
-        <button onClick={toggleTheme} checked={theme === "love"}>
-        <FontAwesomeIcon icon={faHeart} />
-        </button>
+        <FontAwesomeIcon 
+        id='heart'
+        icon={faHeart} 
+        onClick={toggleTheme} 
+        checked={theme === "love"}
+        />
       </div>
     </ThemeContext.Provider>
   );
